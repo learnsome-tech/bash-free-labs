@@ -1,0 +1,20 @@
+{
+  "name": "Bash Scripting & Command Line Automation labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "timonwong.shellcheck"
+      ]
+    }
+  }
+}
